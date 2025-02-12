@@ -3,7 +3,7 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import { RoutesComponent } from './router/Routers';
 import { NavBar } from './components/NavBar';
 
-const App: React.FC = () => {
+const App = () => {
   return (
     <Router>
       <NavBar />

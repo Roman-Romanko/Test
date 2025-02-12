@@ -1,14 +1,16 @@
-// src/routes/index.tsx
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
-import { HomeComponent } from '../pages/HomeComponent';
-import { AboutComponent } from '../pages/AboutComponent';
+import { HomePage } from '../pages/HomePage';
+import { MenPage } from '../pages/MenPage';
+import { WomenPage } from '../pages/WomenPage';
 
-export const RoutesComponent: React.FC = () => {
+
+export const RoutesComponent = () => {
   return (
     <Routes>
-      <Route path="/" element={<HomeComponent />} />
-      <Route path="/about" element={<AboutComponent />} />
+      <Route path="/" element={<HomePage />} />
+      <Route path="/men" element={<MenPage />} />
+      <Route path="/women" element={<WomenPage />}/>
     </Routes>
   );
 };

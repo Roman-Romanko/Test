@@ -1,0 +1,68 @@
+{
+    "products": {
+        "products_women": [
+            {
+                "id": 1,
+                "name": "Product 1",
+                "image": "https://static.sinsay.com/media/catalog/product/0/1/014AU-70X-001-1-866214.jpg?impolicy=product",
+                "price": 100
+            },
+            {
+                "id": 2,
+                "name": "Product 2",
+                "image": "https://static.sinsay.com/media/catalog/product/0/2/027AU-MLC-001-1-882860_1.jpg?impolicy=product",
+                "price": 200
+            },
+            {
+                "id": 3,
+                "name": "Product 3",
+                "image": "https://static.sinsay.com/media/catalog/product/4/7/4706X-05X-071-1-921967_3.jpg?impolicy=product",
+                "price": 300
+            },
+            {
+                "id": 4,
+                "name": "Product 4",
+                "image": "https://static.sinsay.com/media/catalog/product/4/7/4706X-05X-071-1-921967_3.jpg?impolicy=product",
+                "price": 400
+            },
+            {
+                "id": 5,
+                "name": "Product 5",
+                "image": "https://static.sinsay.com/media/catalog/product/4/7/4706X-05X-071-1-921967_3.jpg?impolicy=product",
+                "price": 500
+            }
+        ],
+        "products_men": [
+            {
+                "id": 1,
+                "name": "Product 11",
+                "image": "https://static.sinsay.com/media/catalog/product/cache/850/a4e40ebdc3e371adff845072e1c73f37/9/8/9824I-04X-001-1-906418_2.jpg?impolicy=product",
+                "price": 100
+            },
+            {
+                "id": 2,
+                "name": "Product 22",
+                "image": "https://static.sinsay.com/media/catalog/product/cache/850/a4e40ebdc3e371adff845072e1c73f37/0/0/000AK-99X-002-1-834071_3.jpg?impolicy=product",
+                "price": 200
+            },
+            {
+                "id": 3,
+                "name": "Product 33",
+                "image": "https://static.sinsay.com/media/catalog/product/cache/850/a4e40ebdc3e371adff845072e1c73f37/7/6/763AW-00X-008-1-899267_2.jpg?impolicy=product",
+                "price": 300
+            },
+            {
+                "id": 4,
+                "name": "Product 44",
+                "image": "https://static.sinsay.com/media/catalog/product/cache/850/a4e40ebdc3e371adff845072e1c73f37/2/9/295AW-41X-009-1-867084.jpg?impolicy=product",
+                "price": 400
+            },
+            {
+                "id": 5,
+                "name": "Product 55",
+                "image": "https://static.sinsay.com/media/catalog/product/cache/850/a4e40ebdc3e371adff845072e1c73f37/2/9/295AW-41X-009-1-867084.jpg?impolicy=product",
+                "price": 500
+            }
+        ]
+    }
+}

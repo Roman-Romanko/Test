@@ -11,7 +11,7 @@ export const NavContainer = styled.nav`
   top: 0;
   z-index: 1000;
   height: 10vh;
-  padding: 0 ;
+  padding: 0;
 `;
 
 export const NavLinks = styled.div`
@@ -33,11 +33,17 @@ export const StyledButton = styled.button`
   background-color: #333;
   color: white;
   border: none;
-  /* padding: 1vh 2vw; */
-  margin-right: 2vw;
   font-size: 2vh;
   cursor: pointer;
+  margin: 0.5vw; 
   &:hover {
     background-color: #555;
   }
+`;
+
+export const ButtonContainer = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 2vw;
 `;

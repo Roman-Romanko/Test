@@ -1,17 +1,25 @@
 import React from 'react';
-import { StyledButton, StyledLink, NavContainer, NavLinks } from '../assets/styles/NavBar-style';
+import { StyledButton, StyledLink, NavContainer, NavLinks, ButtonContainer } from '../assets/styles/NavBar-style';
+import { SearchPanel } from './SearchPanel';
 
-export const NavBar: React.FC = () => {
+export const NavBar = () => {
   return (
     <NavContainer>
       <NavLinks>
         <StyledLink to="/">Luxora</StyledLink>
-        <StyledLink to="/about">About</StyledLink>
-        <StyledLink to="/services">Services</StyledLink>
-        <StyledLink to="/contact">Contact</StyledLink>
-        <StyledLink to="/blog">Blog</StyledLink>
+        <StyledLink to="/men">Men</StyledLink>
+        <StyledLink to="/women">Women</StyledLink>
+        <StyledLink to="/contact">Children</StyledLink>
+        <StyledLink to="/blog">For House</StyledLink>
       </NavLinks>
-      <StyledButton>Click me</StyledButton>
+      <NavLinks>
+        <ButtonContainer>
+          <SearchPanel />
+          <StyledButton>Sign in</StyledButton>
+          <StyledButton>Favourite</StyledButton>
+          <StyledButton>Cart</StyledButton>
+        </ButtonContainer>
+      </NavLinks>
     </NavContainer>
   );
 };
